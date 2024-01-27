@@ -30,11 +30,17 @@ My_Lib.cpp: Aprašyta Student klasė ir pagrindinė programa.
 
 ### Išimčių Valdymas
 Išimtys yra tvarkomos try ir catch blokuose, pavyzdžiui:
+
 try {
+
     // kodas, kuris atlieka tam tikras užduotis
+    
 } catch (std::exception& e) {
+
     // kodas, kuris apdoroja išimtis
+    
     std::cerr << "Išimtis: " << e.what() << std::endl;
+    
 }
 
 ### Reikalavimai
